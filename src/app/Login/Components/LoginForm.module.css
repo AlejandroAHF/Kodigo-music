@@ -1,0 +1,22 @@
+/* Custom Neon Colors */
+.border-neon-green {
+    border-color: #39ff14;
+  }
+  .text-neon-green {
+    color: #39ff14;
+  }
+  .hover\:text-neon-green:hover {
+    color: #39ff14;
+  }
+  .bg-neon-green {
+    background-color: #39ff14;
+  }
+  .text-neon-blue {
+    color: #1A8FFF;
+  }
+  .hover\:text-neon-blue:hover {
+    color: #1A8FFF;
+  }
+  .bg-neon-blue {
+    background-color: #1A8FFF;
+  }
