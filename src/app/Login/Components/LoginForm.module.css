@@ -2,6 +2,9 @@
 .border-neon-green {
     border-color: #39ff14;
   }
+  .border-neon-red{
+    border-color: red;
+  }
   .text-neon-green {
     color: #39ff14;
   }
