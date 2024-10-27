@@ -1,9 +1,11 @@
 'use client'
 import { useEffect, useState } from 'react';
 import { getTracks } from "@/Services/Spotify.services";
+import { Itrack } from '@/Interfaces/Tracks.interface';
+import { Track } from '@/Interfaces/Track.interface';
 
 export default function Home() {
-  const [tracks, setTracks] = useState([]);
+  const [tracks, setTracks] = useState<Track[]>([]);//con Track definimos el tipo de dato seran los datos que solisitaremos a la api
 
   //obtenemos los datos de la api
   useEffect(() => {
