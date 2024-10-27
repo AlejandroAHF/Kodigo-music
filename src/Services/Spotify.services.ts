@@ -1,7 +1,5 @@
 import { Itrack } from "@/Interfaces/Tracks.interface";
 
-import type { NextApiRequest, NextApiResponse } from 'next';
-
 let cachedToken: string | null = null;
 let tokenExpirationTime: number | null = null; //Marca de tiempo de cuando expira el token
 
